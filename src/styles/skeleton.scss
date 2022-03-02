@@ -1,0 +1,23 @@
+@keyframes animation-grow {
+  50% {
+    opacity: 0.2;
+  }
+
+}
+
+.skeleton-grow {
+  & .skeleton {
+    animation: animation-grow 2s linear infinite;
+  }
+}
+
+.skeleton {
+  & .skeleton {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 1em;
+    cursor: wait;
+    background-color: currentColor;
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,62 @@
+:root {
+  --background: #1F2229;
+  --background2: #2E303C;
+  --background-button: #373945;
+  --background-button2: #4B4D59;
+  --yellow: #FAE800;
+  --gray: #BEC2C6;
+  --white: #FBFBFB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px "Poppins", Arial, sans-serif;
+  color: #FBFBFB;
+  background: var(--background);
+}
+
+input, textarea {
+  font-family: "Poppins";
+}
+
+button {
+  cursor: pointer;
+}
+
+.w-full {
+  width: 100vw;
+}
+.h-full {
+  height: 100vh;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-25 {
+  width: 25%;
+}
+.w-10 {
+  width: 10%;
+}
+
+.h-100 {
+  height: 100%;
+}
+.h-50 {
+  height: 50%;
+}
+.h-25 {
+  height: 25%;
+}
+.h-10 {
+  height: 10%;
+}
